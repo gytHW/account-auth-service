@@ -1,0 +1,23 @@
+{
+    "log": {
+        "dir": "/data/logs",
+        "name": "test.log",
+        "maxSize": 10,
+        "maxFiles": 5,
+        "level": 1
+    },
+    "addr": {
+        "ip": "0.0.0.0",
+        "port": 12800
+    },
+    "mysql": {
+    "addr": "*.*.*.*:3306",
+    "user": "****",
+    "pwd": "******",
+    "db": "***"
+    },
+    "redis": {
+    "addr": "*.*.*.*:6379"
+    }
+
+}
